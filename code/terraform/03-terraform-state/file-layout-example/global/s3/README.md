@@ -11,10 +11,8 @@ For more info, please see Chapter 3, "How to Manage Terraform State", of
 
 * You must have [Terraform](https://www.terraform.io/) installed on your computer. 
 * You must have an [Amazon Web Services (AWS) account](http://aws.amazon.com/).
-* You may want to install [terragrunt](https://github.com/gruntwork-io/terragrunt) for locking and remote state 
-  management.
 
-Please note that this code was written for Terraform 0.7.x.
+Please note that this code was written for Terraform 0.8.x.
 
 ## Quick start
 
@@ -50,12 +48,6 @@ Deploy the code:
 
 ```
 terraform apply
-```
-
-Put your bucket name into the `.terragrunt` file and configure remote state storage and locking by running:
-
-```
-terragrunt plan
 ```
 
 Clean up when you're done:
